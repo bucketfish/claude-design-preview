@@ -9,7 +9,7 @@ An MCP (Model Context Protocol) server for [Claude Code](https://claude.ai/code)
 **Requirements:** Node.js 18+, Claude Code CLI
 
 ```bash
-git clone https://github.com/your-username/claude-design-preview.git
+git clone https://github.com/bucketfish/claude-design-preview.git
 cd claude-design-preview
 npm install
 ```
@@ -21,6 +21,32 @@ claude mcp add design-preview -- node /absolute/path/to/claude-design-preview/in
 ```
 
 Restart Claude Code. The tools will appear automatically in your next session.
+
+---
+
+## What to ask Claude
+
+Once the MCP server is connected, just talk to Claude naturally. Here are the kinds of things you can say:
+
+**Opening a preview**
+- "Open a design preview of my app running at localhost:3000"
+- "Preview localhost:5173 in the browser"
+- "Open two previews — one at localhost:3000 and one at localhost:4000"
+
+**Implementing comments you've left in the browser**
+- "Implement the design comments"
+- "Read the comments and make those changes"
+- "What comments are there? Go ahead and do them"
+
+**Live back-and-forth mode** *(turn on Live in the browser toolbar first)*
+- "Watch for live comments and implement each one as I send them"
+- "Start implementing my live feedback"
+
+After Claude implements a change, go back to the browser, hover the green badge, and press `Space` to approve or `Backspace` to reject and send a follow-up note.
+
+**Cleaning up**
+- "Clear all the design comments"
+- "Remove comment #a1b2c3"
 
 ---
 
