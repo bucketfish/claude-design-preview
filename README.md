@@ -22,6 +22,8 @@ claude mcp add design-preview -- node /absolute/path/to/claude-design-preview/in
 
 Restart Claude Code. The tools will appear automatically in your next session.
 
+(You can also just ask Claude to do this for you after downloading.)
+
 ---
 
 ## What to ask Claude
